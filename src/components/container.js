@@ -7,6 +7,7 @@ import Character from './character-main';
 // Styles 
 import '../assets/styles/container.scss'
 import '../assets/styles/form.scss';
+import '../assets/styles/info.scss'
 import '../assets/font.scss';
 
 

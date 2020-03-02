@@ -3,8 +3,12 @@ import React, { Component } from 'react';
 class Form extends Component {
 	render() {
 		return (
-			<div>
-				<p>Formulaire amenant à Contact, ou pas</p>
+			<div className='form'>
+				<h4>Voulez-vous choisir ce personnage ?</h4>
+				<div className='button button-form'>
+					<button type='submit'>Oui</button>
+					<button type='submit'>Non</button>
+				</div>
 			</div>
 		)
 	}

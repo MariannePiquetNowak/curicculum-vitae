@@ -1,0 +1,21 @@
+.form {
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 1px 5px 5px black;
+	font-family: 'Press Start 2P', ;
+
+	button {
+		border: none;
+		font-size: 17px;
+		font-weight: bold;
+		padding: 8px;
+		width: 80px;
+		box-shadow: 1px 3px 3px grey;
+		font-family: 'Press Start 2P', ;
+	}
+}
+
+.button-form {
+	display: flex;
+	justify-content: space-around;
+}	

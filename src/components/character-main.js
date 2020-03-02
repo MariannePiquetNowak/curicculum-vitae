@@ -1,9 +1,10 @@
 import React from 'react';
+import MainCharacter from '../assets/images/perso-cv.png';
 
 const Character = () => {
 	return (
-		<div>
-			<p>Ici, ce sera l'avatar de la dingue</p>
+		<div className="character main-character">
+			<img src={MainCharacter} alt="character-cv"/>
 		</div>
 	)
 };

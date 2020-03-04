@@ -1,0 +1,24 @@
+.category {
+    text-decoration: none;
+    font-family: 'Press Start 2P', ;
+    font-size: 11px;
+    padding: 0;
+    color: rgb(21, 226, 21);
+
+}
+
+.category:hover {
+    background-color: transparentize($color: rgb(21, 226, 21), $amount: 0.7);
+    border-radius: 5px;
+    box-shadow: 3px -1px 35px 0px rgb(21, 226, 21);
+}
+
+
+.category-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+// Mobile
+

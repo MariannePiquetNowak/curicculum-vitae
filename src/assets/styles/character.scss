@@ -1,6 +1,6 @@
-.main-character {
+.character {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 30px;
 
     img {
@@ -8,3 +8,34 @@
         height: auto;
     }
 }
+
+.bubble {
+    position:relative;
+    right: 15%;
+    background-color: #ffffff;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#arrow-border {
+    width:0;
+    height: 0;
+    line-height: 0;
+    border-bottom: 30px solid transparent;
+    border-left:30px solid #ffffff;
+    border-right:30px solid transparent;
+
+    position: absolute;
+    bottom: -30px;
+    right: 100px;
+
+}
+
+
+/* 
+Faire une bulle de BD : @http://www.lackofinspiration.com/news-3-107-quand-les-css3-se-mettent-au-service-de-la-bd.html
+*/

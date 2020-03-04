@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class Category extends Component {
-	render() {
-		return (
-			<div>
-				<p>Yop ! Nous on est les categories</p>
-			</div>
-		)
-	}
+const Category = (props) => {
+
+	return (
+		<div>
+			<button className={props.class}>{props.name}</button>
+		</div>
+	)
 }
+
 
 export default Category;

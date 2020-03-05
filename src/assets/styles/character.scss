@@ -1,7 +1,8 @@
 .character {
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    margin: 30px 0;
+    width: 100%;
 
     img {
         width: 15%;
@@ -35,7 +36,17 @@
 
 }
 
-
 /* 
 Faire une bulle de BD : @http://www.lackofinspiration.com/news-3-107-quand-les-css3-se-mettent-au-service-de-la-bd.html
 */
+
+.character-information {
+    width: 350px;
+    background-color: rgba(58, 57, 57, 0.3);
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.4);
+}

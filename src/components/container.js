@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import Info from './info';
 import CharacterContainer from './character-main';
 import Form from './form';
-import Category from './shared/category';
+import Category from './shared/category-button';
 
 
 // Styles 

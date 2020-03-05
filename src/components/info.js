@@ -3,7 +3,7 @@ import React from 'react';
 const Info = () => {
 	return (
 		<div className="tab info-tab">
-			<table>
+			<tbody>
 				<tr>
 					<th scope="col">Nom</th>
 					<th scope="col">Sexe</th>
@@ -15,10 +15,10 @@ const Info = () => {
 					<td>29</td>
 				</tr>
 				<tr>
-					<th colspan="1">Statut</th>
-					<th colspan="2">Développeuse Web Front-End</th>
+					<th colSpan="1">Statut</th>
+					<th colSpan="2">Développeuse Web Front-End</th>
 				</tr>
-			</table>
+			</tbody>
 		</div>
 	)
 }

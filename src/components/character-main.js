@@ -1,15 +1,12 @@
 import React from 'react';
 import MainCharacter from '../assets/images/perso-cv.png';
+import Skills from './skills';
 
 const CharacterContainer = () => {
 	return (
 		<div className="character main-character">
 			<div className='character-information'>
-				<h3>Category Title</h3>
-					<div>
-						
-					</div>
-
+				<Skills title='Skills' />
 			</div>
 			<img src={MainCharacter} alt="character-cv" />
 			<div className='bubble'>
@@ -38,4 +35,6 @@ Documentation :
 Tableau : @https://openclassrooms.com/forum/sujet/reactjs-tableau-affichage-js
 Bulle de BD : @http://www.lackofinspiration.com/news-3-107-quand-les-css3-se-mettent-au-service-de-la-bd.html
 
+Chart.js => @https://www.chartjs.org/docs/latest/charts/bar.html
 */
+

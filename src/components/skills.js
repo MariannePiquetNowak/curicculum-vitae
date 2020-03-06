@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Graph from './shared/graph';
+
 // Partir sur Chart.js (installé) pour un futur graphique
 
 
@@ -13,78 +15,30 @@ const Skills = (props) => {
 				<div className="chart chart--dev">
 					<span className="chart__title">FRONT</span>
 					<ul className="chart--horiz">
-						<li className="chart__bar" style={{ width: "75%" }}>
-							<span className="chart__label">
-								HTML5
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "68%" }}>
-							<span className="chart__label">
-								CSS3 & SCSS
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "50%" }}>
-							<span className="chart__label">
-								JavaScript
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "35%" }}>
-							<span className="chart__label">
-								ReactJS
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "50%" }}>
-							<span className="chart__label">
-								jQuery
-								</span>
-						</li>
+						<Graph label='HTML' style={{ width: "70%" }}/>
+						<Graph label='CSS3 & SASS' style={{ width: "60%" }}/>
+						<Graph label='Javascript' style={{ width: "50%" }}/>
+						<Graph label='ReactJS' style={{ width: "35%" }}/>
+						<Graph label='Jquery' style={{ width: "50%" }}/>
 					</ul>
 				</div>
 
 				<div className="chart chart--dev">
 					<span className="chart__title">BACK</span>
 					<ul className="chart--horiz">
-						<li className="chart__bar" style={{ width: "40%" }}>
-							<span className="chart__label">
-								PHP
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "28%" }}>
-							<span className="chart__label">
-								SQL
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "65%" }}>
-							<span className="chart__label">
-								Wordpress
-								</span>
-						</li>
-						<li className="chart__bar" style={{ width: "20%" }}>
-							<span className="chart__label">
-								Node.js
-								</span>
-						</li>
+						<Graph label='PHP' style={{ width: "40%" }}/>
+						<Graph label='SQL' style={{ width: "28%" }}/>
+						<Graph label='Wordpress' style={{ width: "55%" }}/>
+						<Graph label='Nodejs' style={{ width: "20%" }}/>
 					</ul>
 				</div>
 
 				<div className="chart chart--dev">
 					<span className="chart__title">DESIGN</span>
 					<ul className="chart--horiz">
-						<li className="chart__bar" style={{ width: "70%" }}>
-							<span className="chart__label">
-								Photoshop
-							</span>
-						</li>
-						<li className="chart__bar" style={{ width: "50%" }}>
-							<span className="chart__label">
-								Illustrator
-							</span>
-						</li>
-						<li className="chart__bar" style={{ width: "50%" }}>
-							<span className="chart__label">
-								InDesign
-							</span>
-						</li>
+						<Graph label='Photoshop' style={{ width: "70%" }}/>
+						<Graph label='illustrator' style={{ width: "50%" }}/>
+						<Graph label='InDesign' style={{ width: "50%" }}/>
 					</ul>
 				</div>
 			</div>

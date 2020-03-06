@@ -6,7 +6,7 @@ const CharacterContainer = () => {
 	return (
 		<div className="character main-character">
 			<div className='character-information'>
-				<Skills title='Skills' />
+				<Skills title='Skills'/>
 			</div>
 			<img src={MainCharacter} alt="character-cv" />
 			<div className='bubble'>
@@ -24,11 +24,6 @@ const CharacterContainer = () => {
 
 export default CharacterContainer;
 
-const TableInfo = [
-	{
-
-	}
-]
 /* 
 Documentation : 
 

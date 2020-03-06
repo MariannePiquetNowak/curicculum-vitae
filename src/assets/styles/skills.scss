@@ -1,0 +1,110 @@
+
+.skill-content{
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+
+}
+
+
+
+//Setup
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+
+@mixin stagger-anim-delay($i, $initial-delay, $stagger-delay) {
+@while $i > 0 {
+&:nth-of-type(#{$i}) {
+  animation-delay: $initial-delay + $stagger-delay * $i;
+}
+$i: $i - 1;
+}
+}
+
+
+//Demo
+.skills-graph {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    position: relative;
+
+    ul { list-style: none}
+}
+
+.charts {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 10;
+}
+
+.chart {
+margin: 5px 0 0;
+
+&:first-child {
+margin: 0;
+}
+}
+
+.chart__title {
+display: block;
+margin: 0 0 10px;
+
+font-weight: bold;
+
+opacity: 0;
+
+animation: 1s anim-lightspeed-in ease forwards;
+
+.chart--prod & {
+animation-delay: 3.3s;
+}
+.chart--design & {
+animation-delay: 3.7s;
+}
+}
+
+.chart--horiz {
+overflow: hidden;
+}
+
+.chart__bar {
+$border-rad: 4px;
+height: 25px;
+margin-bottom: 10px;
+
+background: linear-gradient(to left, #4cb8c4, #3cd3ad);
+border-top-right-radius: $border-rad;
+border-bottom-right-radius: $border-rad;
+opacity: 0;
+
+animation: 1s anim-lightspeed-in ease forwards;
+
+.chart--dev & {
+@include stagger-anim-delay(11, 0.5s, 0.2s);
+}
+
+}
+
+.chart__label {
+font-size: 14px;
+padding-left: 10px;
+line-height: 30px;
+color: white;
+}
+
+//Keyframes
+@keyframes anim-lightspeed-in {
+0% {
+transform: translateX(-200%);
+opacity: 1;
+}
+100% {
+transform: translateX(0);
+opacity: 1;
+}
+}
+

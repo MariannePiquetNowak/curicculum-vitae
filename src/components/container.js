@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 // Components stateless
 import Info from './info';
-import CharacterContainer from './character-main';
+import CharacterContainer from './character-container';
 import Form from './form';
-import Category from './shared/category-button';
+import CategoryButton from './shared/category-button';
 
 
 // Styles 
@@ -24,12 +24,12 @@ class Container extends Component {
 				<Info />
 				<CharacterContainer />
 				<div className="category-container">
-					<Category name="SKILLS" class="category skills" />
-					<Category name="SOFT-SKILLS" class="category soft-skills" />
-					<Category name="EDUCATION" class="category education" />
-					<Category name="EXPERIENCE" class="category experience" />
-					<Category name="HOBBIES" class="category hobbies" />
-					<Category name="ENVIRONMENT" class="category environment" />
+					<CategoryButton name="SKILLS" class="category skills" />
+					<CategoryButton name="SOFT-SKILLS" class="category soft-skills" />
+					<CategoryButton name="EDUCATION" class="category education" />
+					<CategoryButton name="EXPERIENCE" class="category experience" />
+					<CategoryButton name="HOBBIES" class="category hobbies" />
+					<CategoryButton name="ENVIRONMENT" class="category environment" />
 				</div>
 				<Form />
 			</div>

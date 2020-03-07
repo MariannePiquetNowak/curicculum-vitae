@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Category = (props) => {
+const CategoryButton = (props) => {
 
 	return (
 		<div>
@@ -11,4 +11,4 @@ const Category = (props) => {
 }
 
 
-export default Category;
+export default CategoryButton;

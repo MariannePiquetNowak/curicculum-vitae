@@ -7,8 +7,6 @@ import Graph from './shared/graph';
 
 const Skills = (props) => {
 
-	// Créer un component de Bar Graph ppour utiliser les props
-
 	return (
 		<div className="skill-content skills-graph">
 			<div className="charts">

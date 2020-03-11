@@ -2,14 +2,20 @@ import React from 'react';
 import MainCharacter from '../assets/images/perso-cv.png';
 import Skills from './skills';
 import SoftSkills from './soft-skills';
+import Education from './education';
+import Hobbies from './hobbies'
+
 import Bubble from './shared/bubble';
 
 const CharacterContainer = () => {
 	return (
 		<div className="character main-character">
 			<div className='character-information'>
+
 				{/* <Skills title='Skills'/> */}
-				<SoftSkills />
+				{/* <SoftSkills /> */}
+				{/* <Education /> */}
+				<Hobbies />
 			</div>
 			<img src={MainCharacter} alt="character-cv" />
 			<Bubble content='Je code mais je design aussi !'/>

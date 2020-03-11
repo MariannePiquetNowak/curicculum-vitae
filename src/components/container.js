@@ -13,7 +13,10 @@ import '../assets/styles/form.scss';
 import '../assets/styles/info.scss';
 import '../assets/styles/character.scss';
 import '../assets/styles/category.scss';
-import '../assets/styles/skills.scss'
+import '../assets/styles/skills.scss';
+import '../assets/styles/soft-skills.scss';
+import '../assets/styles/education.scss';
+import '../assets/styles/hobbies.scss';
 import '../assets/font.scss';
 
 

@@ -8,6 +8,7 @@ import Graph from './shared/graph';
 const Skills = (props) => {
 
 	return (
+
 		<div className="skill-content skills-graph">
 			<div className="charts">
 				<div className="chart chart--dev">
@@ -41,6 +42,7 @@ const Skills = (props) => {
 				</div>
 			</div>
 		</div>
+		
 
 
 	)

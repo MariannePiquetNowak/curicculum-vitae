@@ -1,0 +1,25 @@
+.education-content {
+
+    font-family: 'Ubuntu Mono', monospace;
+
+    h4 {
+        border-bottom: 1px dashed rgb(21, 226, 21);
+        padding-bottom: 3px;
+    }
+
+    span {
+        color: rgb(21, 226, 21);
+
+    }
+
+    p, li {
+        font-size: 14px;
+        list-style: square;
+    }
+
+    p :nth-child(3) {
+        font-weight: bold;
+    }
+
+    
+}

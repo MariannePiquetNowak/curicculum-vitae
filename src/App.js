@@ -2,8 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
 
-// Components with state
-import Container from './components/container';
+// Containers
 import PageContainer from './containers/view.container';
 
 function App() {

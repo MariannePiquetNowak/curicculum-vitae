@@ -1,6 +1,9 @@
 import React from 'react';
 
-import Graph from './shared/graph';
+import Graph from '../shared/graph';
+
+import '../../assets/styles/skills.scss';
+
 
 // Partir sur Chart.js (installé) pour un futur graphique
 

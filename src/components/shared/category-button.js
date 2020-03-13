@@ -1,5 +1,8 @@
 import React from 'react';
 
+import '../../assets/styles/category.scss';
+
+
 
 const CategoryButton = (props) => {
 

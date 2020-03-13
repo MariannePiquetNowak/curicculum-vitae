@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../assets/styles/info.scss';
+
 const Info = () => {
 	return (
 		<div className="tab info-tab">

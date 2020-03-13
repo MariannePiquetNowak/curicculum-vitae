@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../assets/styles/education.scss';
+
 const Education = () => {
     return (
         <div className='education-content'>

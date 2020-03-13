@@ -1,5 +1,8 @@
 import React from 'react';
 
+import '../../assets/styles/environment.scss';
+
+
 const Environment = () => {
     return (
         <div className="environment-content">

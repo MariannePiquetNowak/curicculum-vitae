@@ -1,5 +1,8 @@
 import React from 'react';
 
+import '../../assets/styles/hobbies.scss';
+
+
 const Hobbies = () => {
     return (
         <div className='hobbies-content'>

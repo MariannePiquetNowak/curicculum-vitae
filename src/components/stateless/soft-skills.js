@@ -1,5 +1,8 @@
 import React from 'react';
 
+import '../../assets/styles/soft-skills.scss';
+
+
 const SoftSkill = () => {
     return (
        

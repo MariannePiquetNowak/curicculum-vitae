@@ -26,7 +26,7 @@ class Container extends Component {
 		const view = this.props.view;
 
 		switch(view) {
-			case types.SOFTSKILLS:
+			case types.SOFT_SKILLS:
 				return <SoftSkillsContent />
 			case types.EDUCATION:
 				return <EducationContent />
@@ -47,7 +47,7 @@ class Container extends Component {
 				{this.toggleView()}
 				<div className="category-container">
 					<CategoryButton name="SKILLS" class="category skills" type="button" onClick={() => { this.props.addView(types.SKILLS) }}/>
-					<CategoryButton name="SOFT-SKILLS" class="category soft-skills" type="button" onClick={() => { this.props.addView(types.SOFTSKILLS) }} />
+					<CategoryButton name="SOFT-SKILLS" class="category soft-skills" type="button" onClick={() => { this.props.addView(types.SOFT_SKILLS) }} />
 					<CategoryButton name="EDUCATION" class="category education" type="button" onClick={() => this.props.addView(types.EDUCATION)} />
 					<CategoryButton name="EXPERIENCE" class="category experience" type="button" />
 					<CategoryButton name="HOBBIES" class="category hobbies" type="button" onClick={() => this.props.addView(types.HOBBIES)} />

@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 
 // Containers
-import PageContainer from './containers/view.container';
+import PageContainer from './containers/landing.container';
 
 function App() {
   return (

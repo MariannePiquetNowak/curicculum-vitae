@@ -1,5 +1,5 @@
 export const SKILLS = "SKILLS PAGE";
-export const SOFTSKILLS = "SOFT-SKILLS PAGE";
+export const SOFT_SKILLS = "SOFT-SKILLS PAGE";
 export const EDUCATION = "EDUCATION PAGE";
 export const EXPERIENCE = "EXPERIENCE PAGE";
 export const HOBBIES = "HOBBIES PAGE";

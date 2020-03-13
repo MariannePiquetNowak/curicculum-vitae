@@ -7,7 +7,7 @@ const initialState = {
 
 // Mon nouveau future state à l'activation de l'action
 const LandingPageReducer = (state = initialState, action) => {
-    console.log('chargement du reducer')
+    console.log('chargement du reducer', action)
     switch (action.type) {
         case types.PAGE_ACTION:
             return {
@@ -18,5 +18,7 @@ const LandingPageReducer = (state = initialState, action) => {
             return state
     }
 };
+
+console.log('Landing reducer', LandingPageReducer)
 
 export default LandingPageReducer;

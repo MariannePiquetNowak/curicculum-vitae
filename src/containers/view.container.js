@@ -13,7 +13,10 @@ const mapStateToProps = (state) => {
     return {
         view: state.LandingPageReducer
         }
+       
 }
+
+console.log(mapStateToProps)
 
 const mapDispatchToProps = (dispatch) => {
     return {

@@ -12,7 +12,7 @@ const SkillsContent = (props) => {
 				<Skills />
 			</div>
 			<img src={MainCharacter} alt="character-cv" />
-			<Bubble content='Je code mais je design aussi !' />
+			<Bubble content='Et je dessine de la BD avec ça !' />
 		</div>
 	)
 };

@@ -13,7 +13,7 @@ const HobbiesContent = (props) => {
 				<Hobbies />
 			</div>
 			<img src={MainCharacter} alt="character-cv" />
-			<Bubble content='Je code mais je design aussi !' />
+			<Bubble content='Il en manque non ?' />
 		</div>
 	)
 };

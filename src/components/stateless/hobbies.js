@@ -14,6 +14,7 @@ const Hobbies = () => {
                 <li>Badminton</li>
                 <li>Randonnée - Roadtrip</li>
                 <li>Lecture - Cinéma</li>
+                <li>Astronomie</li>
                 <li>Jeux vidéos & sociétés</li>
                 <li>Moto</li>
             </ul>

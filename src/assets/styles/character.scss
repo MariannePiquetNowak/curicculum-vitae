@@ -20,9 +20,13 @@
     height: 80px;
     display: flex;
     text-align: center;
+    justify-content: center;
     align-items: center;
     font-family: 'Ubuntu Mono', monospace;
+    padding: 0 5px;
+
 }
+
 
 #arrow-border {
     width:0;

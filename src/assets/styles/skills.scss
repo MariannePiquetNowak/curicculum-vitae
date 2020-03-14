@@ -55,9 +55,8 @@
 
   font-weight: bold;
 
-  opacity: 0;
-
-  animation: 1s anim-lightspeed-in ease forwards;
+  // opacity: 0;
+  // animation: 1s anim-lightspeed-in ease forwards;
 
   .chart--prod & {
     animation-delay: 3.3s;

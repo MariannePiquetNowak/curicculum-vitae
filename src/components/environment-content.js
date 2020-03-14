@@ -13,7 +13,7 @@ const EnvironmentContent = (props) => {
 				<Environment />
 			</div>
 			<img src={MainCharacter} alt="character-cv" />
-			<Bubble content='Je code mais je design aussi !' />
+			<Bubble content="Et une machine à café, c'est très important." />
 		</div>
 	)
 };

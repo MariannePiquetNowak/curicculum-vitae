@@ -12,7 +12,7 @@ const Environment = () => {
                 <li>Windows 10</li>
                 <li>Linux KDE Neon</li>
                 <li>Yarn - NPM</li>
-                <li>Command Line</li>
+                <li>Lignes de commandes</li>
                 <li>FileZilla</li>
                 <li>Lenovo Thinkpad E560</li>
                 <li>2 screens</li>

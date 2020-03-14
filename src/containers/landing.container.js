@@ -9,9 +9,9 @@ import Container from "../components/container";
 // Préparation des données / State
 
 const mapStateToProps = (state) => {
-    console.log('chargement de mon state', state.LandingPageReducer.view) // Mon reducer ne se charge pas !!!!!!!!!!! bordel bshjdfgjsrdbfvdjhfbvsjhdfbjhkhgvrfkdjhvkjedfrhg
+    // console.log('chargement de mon state', state.LandingPageReducer.view) // Mon reducer ne se charge pas !!!!!!!!!!! bordel bshjdfgjsrdbfvdjhfbvsjhdfbjhkhgvrfkdjhvkjedfrhg
     return {
-        view: state.LandingPageReducer.view
+        view: state.landingPageReducer.view
     }
 }
 

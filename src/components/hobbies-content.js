@@ -1,5 +1,5 @@
 import React from 'react';
-import MainCharacter from '../assets/images/perso-cv.png';
+import HobbiesCharacter from '../assets/images/hobbies.png';
 
 import Hobbies from './stateless/hobbies';
 
@@ -12,7 +12,9 @@ const HobbiesContent = (props) => {
 			<div className='character-information'>
 				<Hobbies />
 			</div>
-			<img src={MainCharacter} alt="character-cv" />
+			<div className="div-character">
+				<img src={HobbiesCharacter} alt="character-cv" />
+			</div>
 			<Bubble content='Il en manque non ?' />
 		</div>
 	)

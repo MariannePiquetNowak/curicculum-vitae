@@ -12,7 +12,9 @@ const EnvironmentContent = (props) => {
 			<div className='character-information'>
 				<Environment />
 			</div>
-			<img src={MainCharacter} alt="character-cv" />
+			<div className="div-character">
+				<img src={MainCharacter} alt="character-cv" />
+			</div>
 			<Bubble content="Et une machine à café, c'est très important." />
 		</div>
 	)

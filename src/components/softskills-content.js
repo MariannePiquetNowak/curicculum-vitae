@@ -1,5 +1,5 @@
 import React from 'react';
-import MainCharacter from '../assets/images/perso-cv.png';
+import SoftCharacter from '../assets/images/soft-skills.png';
 
 import SoftSkills from './stateless/soft-skills';
 
@@ -12,8 +12,10 @@ const SoftSkillsContent = (props) => {
 			<div className='character-information'>
 				<SoftSkills />
 			</div>
-			<img src={MainCharacter} alt="character-cv" />
-			<Bubble content='En plus, je sais bien faire le café instantanné !' />
+			<div className="div-character">
+				<img src={SoftCharacter} alt="character-cv" />
+			</div>
+			<Bubble content="En plus, je sais bien faire le café avec de l'instantanné !" />
 		</div>
 	)
 };

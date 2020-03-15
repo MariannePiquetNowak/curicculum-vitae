@@ -6,15 +6,19 @@
     max-height: 569px;
 
 
+    
+}
+
+.div-character {
+    max-height: 569px;
     img {
-        width: 15%;
-        height: auto;
+        max-height: 569px;
     }
 }
 
 .bubble {
     position:relative;
-    right: 15%;
+    right: 13%;
     background-color: #ffffff;
     width: 200px;
     height: 80px;
@@ -25,6 +29,16 @@
     font-family: 'Ubuntu Mono', monospace;
     padding: 0 5px;
 
+    a {
+       text-decoration: none; 
+       cursor: pointer;
+       font-weight: 600;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
 }
 
 
@@ -33,12 +47,12 @@
     height: 0;
     line-height: 0;
     border-bottom: 30px solid transparent;
-    border-left:30px solid #ffffff;
+    border-left: 40px solid #ffffff;
     border-right:30px solid transparent;
 
     position: absolute;
     bottom: -30px;
-    right: 100px;
+    right: 110px;
 
 }
 

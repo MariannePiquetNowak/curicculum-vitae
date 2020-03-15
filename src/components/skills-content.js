@@ -11,8 +11,11 @@ const SkillsContent = (props) => {
 			<div className='character-information'>
 				<Skills />
 			</div>
+			<div className="div-character">
+
 			<img src={MainCharacter} alt="character-cv" />
-			<Bubble content='Et je dessine de la BD avec ça !' />
+			</div>
+			<Bubble content='Je dessine beaucoup aussi.' link="https://www.deviantart.com/sckyzo-pat" linkContent=" Je vous montre ?"/>
 		</div>
 	)
 };

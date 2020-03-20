@@ -10,8 +10,9 @@ const Environment = () => {
                 <li>IDE Visual Studio Code</li>
                 <li>Dual Boot</li>
                 <li>Windows 10</li>
-                <li>Linux KDE Neon</li>
                 <li>Yarn - NPM</li>
+                <li>Git - Github - Gitlab</li>
+                <li>Linux KDE Neon</li>
                 <li>Lignes de commandes</li>
                 <li>FileZilla</li>
                 <li>Lenovo Thinkpad E560</li>

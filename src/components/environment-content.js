@@ -1,9 +1,10 @@
 import React from 'react';
-import MainCharacter from '../assets/images/perso-cv.png';
+import EnvironmentCharacter from '../assets/images/environment.png';
 
 import Environment from './stateless/environment';
 
 import Bubble from './shared/bubble';
+
 
 const EnvironmentContent = (props) => {
 
@@ -13,9 +14,9 @@ const EnvironmentContent = (props) => {
 				<Environment />
 			</div>
 			<div className="div-character">
-				<img src={MainCharacter} alt="character-cv" />
+				<img src={EnvironmentCharacter} alt="character-cv" />
 			</div>
-			<Bubble content="Et une machine à café, c'est très important." />
+			<Bubble content="Et une machine à café, c'est très important !" />
 		</div>
 	)
 };

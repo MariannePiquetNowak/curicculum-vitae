@@ -1,5 +1,5 @@
 import React from 'react';
-import MainCharacter from '../assets/images/perso-cv.png';
+import EducationCharacter from '../assets/images/education.png';
 
 import Education from './stateless/education';
 
@@ -13,9 +13,9 @@ const EducationContent = (props) => {
 				<Education />
 			</div>
 			<div className="div-character">
-				<img src={MainCharacter} alt="character-cv" />
+				<img src={EducationCharacter} alt="character-cv" />
 			</div>
-			<Bubble content='Le tout en téléprésentiel !' />
+			<Bubble content="Cela m'a permis d'expérimenter le téléprésentiel." />
 		</div>
 	)
 };

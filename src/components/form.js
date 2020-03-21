@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-
+import React from 'react';
+import Popup from './popup';
 import '../assets/styles/form.scss';
 
 
-class Form extends Component {
-	render() {
-		return (
-			<div className="container-form">
-				<form className='form'>
-					<h4>Voulez-vous choisir ce personnage ?</h4>
-					<div className='button button-form'>
-						<button type='submit'>Oui</button>
-						<button type='submit'>Non</button>
-					</div>
-				</form>
-			</div>
-		)
-	}
+const Form = (props) => {
+
+	return (
+		
+		<div className="container-form">
+			<form className='form'>
+				<h4>Voulez-vous choisir ce personnage ?</h4>
+				<div className='button button-form'>
+					<button className="button-ok" type='button' onClick={() => props.addView()}>Oui</button>
+					<button className="button-no" type='button' onClick={() => console.log('NOPE')}>Non</button>
+				</div>
+			</form>
+		</div>
+	)
 }
 
 export default Form;

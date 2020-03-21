@@ -4,5 +4,6 @@ export const EDUCATION = "EDUCATION PAGE";
 export const EXPERIENCE = "EXPERIENCE PAGE";
 export const HOBBIES = "HOBBIES PAGE";
 export const ENVIRONMENT = "ENVIRONMENT PAGE";
+export const POPUP = "POPUP"
 
 export const PAGE_ACTION = 'PAGE_ACTION';

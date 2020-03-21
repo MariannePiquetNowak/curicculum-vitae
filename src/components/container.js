@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Info from './info';
 import Form from './form';
 import CategoryButton from './shared/category-button';
+import Popup from './popup';
 
 // Stateless Components 
 import SkillsContent from './skills-content';
@@ -22,8 +23,21 @@ import * as types from '../actions/actionTypes';
 
 class Container extends Component {
 
+	popupView() {
+		const view = this.props.view
+		const popup = <Popup />
+		console.log('popup')
+		switch(view) {
+			case types.POPUP:
+				return <Popup />
+			default: 
+				return null
+		}
+	}
+
 	toggleView() {
 		const view = this.props.view;
+	
 
 		switch(view) {
 			case types.SOFT_SKILLS:
@@ -43,17 +57,18 @@ class Container extends Component {
 			
 		return (
 			<div className='container'>
+			{this.popupView()}
 				<Info />
 				{this.toggleView()}
 				<div className="category-container">
 					<CategoryButton name="SKILLS" class="category skills" type="button" onClick={() => { this.props.addView(types.SKILLS) }}/>
 					<CategoryButton name="SOFT-SKILLS" class="category soft-skills" type="button" onClick={() => { this.props.addView(types.SOFT_SKILLS) }} />
 					<CategoryButton name="EDUCATION" class="category education" type="button" onClick={() => this.props.addView(types.EDUCATION)} />
-					<CategoryButton name="EXPERIENCE" class="category experience" type="button" />
+					<CategoryButton name="EXPERIENCE" class="category experience" type="button" onClick={() => console.log('expérience')}/>
 					<CategoryButton name="HOBBIES" class="category hobbies" type="button" onClick={() => this.props.addView(types.HOBBIES)} />
 					<CategoryButton name="ENVIRONMENT" class="category environment" type="button" onClick={() => this.props.addView(types.ENVIRONMENT)} />
 				</div>
-				<Form />
+				<Form addView={() => {this.props.addView(types.POPUP)}} />
 			</div>
 		)
 	}

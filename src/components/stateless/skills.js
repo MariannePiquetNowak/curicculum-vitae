@@ -52,33 +52,3 @@ const Skills = (props) => {
 }
 
 export default Skills;
-
-/*
-
-<div className='skill-content'>
-		<h3>Front</h3>
-			<ul>
-				<li>Html5</li>
-				<li>css3</li>
-				<li>Sass</li>
-				<li>Jquery</li>
-				<li>Javascript</li>
-				<li>React</li>
-			</ul>
-			<h3>Back</h3>
-			<ul>
-				<li>Php</li>
-				<li>SQL</li>
-				<li>Wordpress</li>
-				<li>Node.js</li>
-			</ul>
-			<h3>Design</h3>
-			<ul>
-				<li>Photoshop</li>
-				<li>Illustrator</li>
-				<li>Indesign</li>
-				<li>Invision</li>
-			</ul>
-	</div>
-
-*/

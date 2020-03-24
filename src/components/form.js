@@ -1,9 +1,14 @@
 import React from 'react';
-import Popup from './popup';
 import '../assets/styles/form.scss';
+
+import * as types from '../actions/actionTypes';
 
 
 const Form = (props) => {
+
+	function addElm() {
+		console.log("coucou")
+	}
 
 	return (
 		

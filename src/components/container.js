@@ -23,23 +23,34 @@ import * as types from '../actions/actionTypes';
 
 class Container extends Component {
 
+	addClass() {
+
+        let elm = document.getElementById('popup')
+        let active = elm.classList.remove('active');
+        let inactive = elm.classList.add('inactive')
+        
+        if(elm.className === 'active') {
+            return inactive
+		} 
+
+	}
+
+
 	popupView() {
 		const view = this.props.view
-		const popup = <Popup />
-		console.log('popup')
-		switch(view) {
+		switch (view) {
 			case types.POPUP:
-				return <Popup />
-			default: 
+				return <Popup addClass={() => { this.addClass() }}/>
+			default:
 				return null
 		}
 	}
 
 	toggleView() {
 		const view = this.props.view;
-	
 
-		switch(view) {
+
+		switch (view) {
 			case types.SOFT_SKILLS:
 				return <SoftSkillsContent />
 			case types.EDUCATION:
@@ -53,22 +64,22 @@ class Container extends Component {
 		}
 	}
 
-	render () {
-			
+	render() {
+
 		return (
 			<div className='container'>
-			{this.popupView()}
+				{this.popupView()}
 				<Info />
 				{this.toggleView()}
 				<div className="category-container">
-					<CategoryButton name="SKILLS" class="category skills" type="button" onClick={() => { this.props.addView(types.SKILLS) }}/>
+					<CategoryButton name="SKILLS" class="category skills" type="button" onClick={() => { this.props.addView(types.SKILLS) }} />
 					<CategoryButton name="SOFT-SKILLS" class="category soft-skills" type="button" onClick={() => { this.props.addView(types.SOFT_SKILLS) }} />
 					<CategoryButton name="EDUCATION" class="category education" type="button" onClick={() => this.props.addView(types.EDUCATION)} />
-					<CategoryButton name="EXPERIENCE" class="category experience" type="button" onClick={() => console.log('expérience')}/>
+					<CategoryButton name="EXPERIENCE" class="category experience" type="button" onClick={() => console.log('expérience')} />
 					<CategoryButton name="HOBBIES" class="category hobbies" type="button" onClick={() => this.props.addView(types.HOBBIES)} />
 					<CategoryButton name="ENVIRONMENT" class="category environment" type="button" onClick={() => this.props.addView(types.ENVIRONMENT)} />
 				</div>
-				<Form addView={() => {this.props.addView(types.POPUP)}} />
+				<Form addView={() => { this.props.addView(types.POPUP)}} />
 			</div>
 		)
 	}

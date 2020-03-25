@@ -15,7 +15,7 @@ const SoftSkillsContent = (props) => {
 			<div className="div-character">
 				<img src={SoftCharacter} alt="character-cv" />
 			</div>
-			<Bubble content="En plus, je sais bien faire le café avec de l'instantanné !" />
+			<Bubble className='bubble' content="En plus, je sais bien faire le café avec de l'instantanné !" />
 		</div>
 	)
 };

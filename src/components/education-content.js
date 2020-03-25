@@ -15,7 +15,7 @@ const EducationContent = (props) => {
 			<div className="div-character">
 				<img src={EducationCharacter} alt="character-cv" />
 			</div>
-			<Bubble content="Cela m'a permis d'expérimenter le téléprésentiel." />
+			<Bubble className='bubble' content="Cela m'a permis d'expérimenter le téléprésentiel." />
 		</div>
 	)
 };

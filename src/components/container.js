@@ -9,6 +9,7 @@ import Popup from './popup';
 import SkillsContent from './skills-content';
 import SoftSkillsContent from './softskills-content';
 import EducationContent from "./education-content";
+import ExperienceContent from "./experience-content";
 import HobbiesContent from "./hobbies-content";
 import EnvironmentContent from "./environment-content";
 
@@ -26,13 +27,11 @@ class Container extends Component {
 	addClass() {
 
         let elm = document.getElementById('popup')
-        let active = elm.classList.remove('active');
         let inactive = elm.classList.add('inactive')
         
         if(elm.className === 'active') {
             return inactive
 		} 
-
 	}
 
 
@@ -55,6 +54,8 @@ class Container extends Component {
 				return <SoftSkillsContent />
 			case types.EDUCATION:
 				return <EducationContent />
+			case types.EXPERIENCE:
+				return <ExperienceContent />
 			case types.HOBBIES:
 				return <HobbiesContent />
 			case types.ENVIRONMENT:
@@ -75,7 +76,7 @@ class Container extends Component {
 					<CategoryButton name="SKILLS" class="category skills" type="button" onClick={() => { this.props.addView(types.SKILLS) }} />
 					<CategoryButton name="SOFT-SKILLS" class="category soft-skills" type="button" onClick={() => { this.props.addView(types.SOFT_SKILLS) }} />
 					<CategoryButton name="EDUCATION" class="category education" type="button" onClick={() => this.props.addView(types.EDUCATION)} />
-					<CategoryButton name="EXPERIENCE" class="category experience" type="button" onClick={() => console.log('expérience')} />
+					<CategoryButton name="EXPERIENCE" class="category experience" type="button" onClick={() => this.props.addView(types.EXPERIENCE)} />
 					<CategoryButton name="HOBBIES" class="category hobbies" type="button" onClick={() => this.props.addView(types.HOBBIES)} />
 					<CategoryButton name="ENVIRONMENT" class="category environment" type="button" onClick={() => this.props.addView(types.ENVIRONMENT)} />
 				</div>

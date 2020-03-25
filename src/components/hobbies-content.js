@@ -15,7 +15,7 @@ const HobbiesContent = (props) => {
 			<div className="div-character">
 				<img src={HobbiesCharacter} alt="character-cv" />
 			</div>
-			<Bubble content='Il en manque non ?' />
+			<Bubble className='bubble' content='Il en manque non ?' />
 		</div>
 	)
 };

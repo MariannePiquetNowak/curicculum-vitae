@@ -15,7 +15,7 @@ const SkillsContent = (props) => {
 
 			<img src={MainCharacter} alt="character-cv" />
 			</div>
-			<Bubble content='Je dessine beaucoup aussi.' link="https://www.deviantart.com/sckyzo-pat" linkContent=" Je vous montre ?"/>
+			<Bubble className='bubble' content='Je dessine beaucoup aussi.' link="https://www.deviantart.com/sckyzo-pat" linkContent=" Je vous montre ?"/>
 		</div>
 	)
 };

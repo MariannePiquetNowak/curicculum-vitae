@@ -1,14 +1,7 @@
 import React from 'react';
 import '../assets/styles/form.scss';
 
-import * as types from '../actions/actionTypes';
-
-
 const Form = (props) => {
-
-	function addElm() {
-		console.log("coucou")
-	}
 
 	return (
 		
@@ -17,7 +10,10 @@ const Form = (props) => {
 				<h4>Voulez-vous choisir ce personnage ?</h4>
 				<div className='button button-form'>
 					<button className="button-ok" type='button' onClick={() => props.addView()}>Oui</button>
-					<button className="button-no" type='button' onClick={() => console.log('NOPE')}>Non</button>
+					<button className="button-no" id="button-no"  type='button' onClick={() => console.log('NOPE')}>
+					Non
+						<span className="tooltiptext">Tant pis pour vous !</span>
+					</button>
 				</div>
 			</form>
 		</div>

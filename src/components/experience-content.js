@@ -1,6 +1,6 @@
 import React from 'react';
 
-import HobbiesCharacter from '../assets/images/hobbies.png';
+import ExperienceCharacter from '../assets/images/experience.png';
 
 
 import Bubble from './shared/bubble';
@@ -15,7 +15,7 @@ const ExperienceContent = () => {
 				<Experience />
 			</div>
 			<div className="div-character">
-				<img src={HobbiesCharacter} alt="character-cv" />
+				<img src={ExperienceCharacter} alt="character-cv" />
 			</div>
 			<Bubble className='bubble' content='Il en manque non ?' />
 		</div>

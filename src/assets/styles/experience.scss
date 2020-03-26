@@ -1,0 +1,44 @@
+.experience-content {
+
+    font-family: 'Ubuntu Mono', monospace;
+
+    h4 {
+        border-bottom: 1px dashed rgb(21, 226, 21);
+        padding-bottom: 3px;
+
+        p {
+            color: rgba(255, 255, 255, 0.4);
+            font-weight: normal;
+            margin: 0;
+        }
+
+        span {
+            color: rgb(21, 226, 21);
+    
+        }
+
+        
+    }
+
+    a {
+        color: rgb(21, 226, 21);
+        font-weight: bold;
+    }
+  
+
+    p, li {
+        font-size: 14px;
+        list-style: square;
+    }
+
+    p :nth-child(3) {
+        font-weight: bold;
+    }   
+}
+
+.puce {
+    width: 10px;
+    border: 1px solid rgb(21, 226, 21);
+    border-radius: 50%;
+
+}

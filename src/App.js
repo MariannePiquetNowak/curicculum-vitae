@@ -1,22 +1,14 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
 
-// Components with state
-import Container from './components/main-content';
-import Form from './components/form';
-
-// Components stateless
-import Info from './components/info';
-import Character from './components/character-main';
+// Containers
+import PageContainer from './containers/landing.container';
 
 function App() {
   return (
     <div className="App">
-      <p>coucou</p>
-      <Container />
-      <Info />
-      <Character />
-      <Form />
+      <Route path='/' component={PageContainer} />
     </div>
   );
 }

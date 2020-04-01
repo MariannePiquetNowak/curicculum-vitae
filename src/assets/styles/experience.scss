@@ -11,13 +11,12 @@
             font-weight: normal;
             margin: 0;
         }
-
-        span {
-            color: rgb(21, 226, 21);
-    
-        }
-
         
+    }
+
+    span {
+        color: rgb(21, 226, 21);
+
     }
 
     a {
@@ -34,11 +33,4 @@
     p :nth-child(3) {
         font-weight: bold;
     }   
-}
-
-.puce {
-    width: 10px;
-    border: 1px solid rgb(21, 226, 21);
-    border-radius: 50%;
-
 }

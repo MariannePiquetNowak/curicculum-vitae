@@ -5,5 +5,6 @@ export const EXPERIENCE = "EXPERIENCE PAGE";
 export const HOBBIES = "HOBBIES PAGE";
 export const ENVIRONMENT = "ENVIRONMENT PAGE";
 export const POPUP = "POPUP"
+export const NOT_FOUND = "NOT FOUND";
 
 export const PAGE_ACTION = 'PAGE_ACTION';

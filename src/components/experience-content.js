@@ -17,7 +17,7 @@ const ExperienceContent = () => {
 			<div className="div-character">
 				<img src={ExperienceCharacter} alt="character-cv" />
 			</div>
-			<Bubble className='bubble' content='Il en manque non ?' />
+			<Bubble className='bubble' content="Je m'adapte à vous et vos besoins." />
 		</div>
     )
 }

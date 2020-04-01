@@ -8,15 +8,20 @@ const Environment = () => {
         <div className="environment-content">
             <ul>
                 <li>IDE Visual Studio Code</li>
-                <li>Dual Boot</li>
-                <li>Windows 10</li>
-                <li>Yarn - NPM</li>
-                <li>Git - Github - Gitlab</li>
-                <li>Linux KDE Neon</li>
-                <li>Lignes de commandes</li>
-                <li>FileZilla</li>
-                <li>Lenovo Thinkpad E560</li>
-                <li>2 screens</li>
+                <li>Windows / Linux Ubuntu</li>
+                <li className="list-environment">Workflow Git :
+                    <p>-> Git</p>
+                    <p>-> Gitlab</p>
+                    <p>-> Github</p>
+                    <p>-> Git Flow</p>
+                </li>
+                <li className="list-environment">
+                    Javascript :
+                    <p>-> NPM</p>
+                    <p>-> Yarn</p>
+                    <p>-> Webpack</p>
+                </li>
+                <li>Client FTP : FileZilla</li>
             </ul>
         </div>
     )

@@ -41,7 +41,7 @@
   }
 
   .tooltiptext {
-	  font-size: 13px;;
+	font-size: 13px;;
 	visibility: hidden;
 	width: 120px;
 	background-color: #555;
@@ -54,7 +54,7 @@
 	bottom: 125%;
 	left: 75%;
 	margin-left: -60px;
-	
+	padding: 5px;
   }
 
   .tooltiptext::after {

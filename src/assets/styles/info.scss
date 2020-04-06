@@ -1,12 +1,13 @@
 .info-tab {
-   display: flex;
-   justify-content: right;
-    td,
-    th {
-        border: 1px solid rgb(190, 190, 190);
-        padding: 10px;
-    }
-}
+    display: flex;
+    justify-content: flex-end;
+     td,
+     th {
+         border: 1px solid #ffffff;
+         padding: 10px;
+     }
+ }
+
 
 td {
     text-align: center;
@@ -18,7 +19,7 @@ tr {
 
 tbody {
     border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
+    border: 2px solid #ffffff;
     letter-spacing: 1px;
     font-family: sans-serif;
     font-size: .8rem;
@@ -26,6 +27,7 @@ tbody {
     font-size: 15px;
     font-family: 'Press Start 2P', ;
 }
+
 
 
 

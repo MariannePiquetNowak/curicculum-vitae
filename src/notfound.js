@@ -5,9 +5,8 @@ import './assets/styles/not-found.scss';
 
 import NotFoundGif from './assets/gif/not-found.gif';
 
-import CategoryButton from './components/shared/category-button';
-import * as types from './actions/actionTypes';
-
+// import CategoryButton from './components/shared/category-button';
+// import * as types from './actions/actionTypes';
 
 
 const NotFound = (props) => {

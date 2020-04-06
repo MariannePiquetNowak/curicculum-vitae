@@ -1,5 +1,5 @@
 import React from 'react';
-import MainCharacter from '../assets/images/perso-cv.png';
+import MainCharacter from '../assets/images/skills.png';
 import Skills from './stateless/skills';
 
 import Bubble from './shared/bubble';

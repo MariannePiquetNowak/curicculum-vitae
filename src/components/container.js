@@ -22,6 +22,7 @@ import '../assets/font.css';
 // Actions 
 import * as types from '../actions/actionTypes';
 
+
 class Container extends Component {
 
 	addClass() {

@@ -20,7 +20,7 @@ const Info = () => {
 					<th colSpan="1">Statut</th>
 					<th colSpan="2">Développeuse Web Front-End</th>
 				</tr>
-			</tbody>
+			</tbody>	
 		</div>
 	)
 }

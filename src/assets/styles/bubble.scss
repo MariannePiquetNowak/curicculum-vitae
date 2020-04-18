@@ -12,17 +12,16 @@
     padding: 0 5px;
 
     a {
-       text-decoration: none; 
-       cursor: pointer;
-       font-weight: 600;
+        // text-decoration: none; 
+        // color: #000000;
+        cursor: pointer;
     }
 
     a:visited {
-        text-decoration: none;
+        // text-decoration: none;
     }
 
 }
-
 
 #arrow-border {
     width:0;
@@ -42,11 +41,30 @@
 Faire une bulle de BD : @http://www.lackofinspiration.com/news-3-107-quand-les-css3-se-mettent-au-service-de-la-bd.html
 */
 
-.character-information {
-    width: 450px;
-    background-color: rgba(58, 57, 57, 0.3);
-    padding: 0 10px;
-    color: rgba(255, 255, 255, 0.4);
-    box-sizing: content-box;
 
+@media (max-width: 1550px) {
+    .bubble {
+        font-size: 14px;
+        right: 7%;
+    }
+
+    #arrow-border {
+        bottom: -30px;
+        right: 90px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #arrow-border {
+        bottom: -30px;
+        right: 70px;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    #arrow-border {
+        bottom: -30px;
+        right: 50px;
+    }
 }

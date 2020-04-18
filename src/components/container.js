@@ -16,6 +16,7 @@ import EnvironmentContent from "./environment-content";
 // Styles 
 import '../assets/styles/container.scss'
 import '../assets/styles/character.scss';
+import '../assets/styles/bubble.scss';
 import '../assets/font.css';
 
 

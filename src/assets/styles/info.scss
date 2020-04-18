@@ -15,6 +15,7 @@ td {
 
 tr {
     padding: 10px;
+    box-sizing: border-box;
 }
 
 tbody {
@@ -26,6 +27,19 @@ tbody {
     width: 40%;
     font-size: 15px;
     font-family: 'Press Start 2P', ;
+    margin: 0.3em;
+}
+
+@media (max-width: 1550px) {
+    tbody {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1300px) {
+    tbody {
+        font-size: 10px;
+    }
 }
 
 

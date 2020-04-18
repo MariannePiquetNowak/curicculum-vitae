@@ -12,13 +12,12 @@
     padding: 0 5px;
 
     a {
-        // text-decoration: none; 
-        // color: #000000;
+        text-decoration: none; 
         cursor: pointer;
     }
 
     a:visited {
-        // text-decoration: none;
+        text-decoration: none;
     }
 
 }
@@ -40,6 +39,8 @@
 /* 
 Faire une bulle de BD : @http://www.lackofinspiration.com/news-3-107-quand-les-css3-se-mettent-au-service-de-la-bd.html
 */
+
+// ================ Responsive ===================
 
 
 @media (max-width: 1550px) {

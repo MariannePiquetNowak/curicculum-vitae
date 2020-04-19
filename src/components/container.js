@@ -28,11 +28,11 @@ class Container extends Component {
 
 	addClass() {
 
-        let elm = document.getElementById('popup')
-        let inactive = elm.classList.add('inactive')
+		let elm = document.getElementById('popup' && 'border');
+		let inactive = elm.classList.add('inactive')
         
         if(elm.className === 'active') {
-            return inactive
+            return inactive 
 		} 
 	}
 
@@ -41,7 +41,7 @@ class Container extends Component {
 		const view = this.props.view
 		switch (view) {
 			case types.POPUP:
-				return <Popup addClass={() => { this.addClass() }}/>
+				return <Popup addView={() => { this.props.addView(types.SKILLS) }}/>
 			default:
 				return null
 		}

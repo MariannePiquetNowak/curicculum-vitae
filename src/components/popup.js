@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../assets/styles/popup.scss'
 
+import * as types from '../actions/actionTypes';
 
 
 /* 
@@ -37,7 +38,7 @@ const Popup = (props) => {
                         </ul>
                     </div>
                 </div>
-                <button type='close' className="close-popup" onClick={() => props.addClass()}>Fermer</button>
+                <button type='button' className="close-popup" onClick={() => props.addView(types.SKILLS)}>Fermer</button>
             </div>
         </div>
     )

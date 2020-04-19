@@ -1,16 +1,51 @@
-.popup {
+#border {
     position: absolute;
     width: 60%;
-    height: 500px;
-    overflow: hidden;
-    margin: 6em auto;
+    box-sizing: content-box;
+    margin: 10em auto;
     z-index: 11;
     left: 20%;
 
-    
-    background-color: rgb(95, 94, 94);
     border: 5px dashed rgb(21, 226, 21);
     box-shadow: 0px 0px 30px -3px rgb(21, 226, 21);
+
+}
+
+// ========= Animation Border ======== \\
+
+#border {
+    animation-duration: 1s;
+    animation-name: border;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes border{
+    from {
+        box-shadow: 0px 0px 60px -3px rgb(21, 226, 21);
+    }
+    
+    to {
+        box-shadow: 0px 0px 10px -3px rgb(21, 226, 21);
+    }
+}
+
+
+.popup {
+    // position: absolute;
+    // width: 60%;
+    // height: 500px;
+    padding: 1em;
+    // box-sizing: content-box;
+    // overflow: hidden;
+    // margin: 6em auto;
+    // z-index: 11;
+    // left: 20%;
+
+    
+    background-color: rgb(95, 94, 94);
+    // border: 5px dashed rgb(21, 226, 21);
+    // box-shadow: 0px 0px 30px -3px rgb(21, 226, 21);
 
     display: flex;
     flex-direction: column;
@@ -47,15 +82,11 @@
     }
 
     button:hover {
-        border-radius: 5px;
-        
+        border-radius: 5px; 
     }
-
 }
 
-
 .popup-content {
-
     font-family: 'Press Start 2P', ;
     text-align: center;
 
@@ -84,43 +115,10 @@
 
 }
 
-
 .inactive {
     display: none;
 }
 
 
-// @keyframes border{
-//     0%{opacity: 0;}
-//     10%{opacity: 0.1;}
-//     20% {opacity: 0.2;}
-//     30% {opacity: 0.3;}
-//     40% {opacity: 0.4;}
-//     50% {opacity: 0.5;}
-//     60% {opacity: 0.6;}
-//     70% {opacity: 0.7;}
-//     80% {opacity: 0.8;}
-//     90% {opacity: 0.9;}
-//     100% {opacity: 1;}
-// }
-
 // https://developer.mozilla.org/fr/docs/Web/CSS/Animations_CSS/Utiliser_les_animations_CSS
 
-// .slidein {
-//     animation-duration: 3s;
-//     animation-name: slidein;
-//     animation-iteration-count: 3;
-//     animation-direction: alternate;
-//   }
-  
-//   @keyframes slidein {
-//     from {
-//       margin-left:100%;
-//       width:300%
-//     }
-    
-//     to {
-//       margin-left:0%;
-//       width:100%;
-//     }
-//   }

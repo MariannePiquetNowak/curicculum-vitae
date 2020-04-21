@@ -6,3 +6,15 @@
   background-color: #7c7b7b;
   height: 100vh;
 }
+
+@media (max-width: 1500px) {
+  .App {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1900px) {
+  .App {
+    height: 100vh;
+  }
+}

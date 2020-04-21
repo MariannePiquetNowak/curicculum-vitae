@@ -22,4 +22,10 @@
     margin: 20px 0;
 }
 
-// Mobile
+// Responsive
+
+@media (max-width: 1200px) {
+    .category {
+        font-size: 9px;
+    }
+}

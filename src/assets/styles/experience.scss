@@ -1,7 +1,10 @@
 .experience-content {
 
     font-family: 'Ubuntu Mono', monospace;
-    box-sizing: content-box; 
+    box-sizing: content-box;
+    height: 568px;
+    overflow: auto;
+    padding-right: 10px;
 
     h4 {
         border-bottom: 1px dashed rgb(21, 226, 21);

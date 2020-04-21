@@ -2,23 +2,30 @@
 	display: flex;
 	justify-content: center;
 }
+
 .form {
-	padding: 20px;
+	padding: 10px 15px 5px 15px;
 	background-color: #ffffff;
 	box-shadow: 1px 5px 5px black;
 	font-family: 'Press Start 2P', ;
-	width: 51%;
+	font-size: 14px;
+	box-sizing: content-box;
+	height: auto;
 	text-align: center;
 
 	button {
 		cursor: pointer;
 		border: none;
-		font-size: 17px;
+		font-size: 14px;
 		font-weight: bold;
 		padding: 8px;
 		width: 80px;
 		box-shadow: 1px 3px 3px grey;
 		font-family: 'Press Start 2P', ;
+	}
+
+	h4 {
+		margin-top: 10px;
 	}
 }
 
@@ -68,3 +75,31 @@
 	border-style: solid;
 	border-color: #555 transparent transparent transparent;
   }
+
+  // Responsive 
+
+// @media (max-width: 1500px) {
+// 	.form {
+// 		font-size: 12px;
+// 		width: 45%;
+// 		padding: 15px;
+
+// 		button {
+// 			font-size: 12px;
+// 			width: 60px;
+// 		}
+// 	}
+// }
+
+@media (max-width: 1500px) {
+	.form {
+		font-size: 9px;
+		width: 35%;
+		padding: 10px;
+	
+		button {
+			font-size: 9px;
+			width: 40px;
+		}
+	}
+}

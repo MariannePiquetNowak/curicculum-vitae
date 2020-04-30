@@ -5,3 +5,51 @@
     margin: .2em 0;
     background-color: #5b5a5a;  
 }
+
+.link-to-v2 {
+    background-color: rgb(205, 204, 211);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Press Start 2P', ;
+    font-size: 14px;
+    color: rgb(21, 226, 21);
+
+    position: absolute;
+}
+
+.link-to-v2:hover {
+    // box-shadow: 3px -1px 35px 0px rgb(21, 226, 21);
+    background-color: transparentize($color: rgb(21, 226, 21), $amount: 0.5);
+    animation: link 2s infinite;    
+}
+
+// @keyframes link{
+//     0%{box-shadow: 3px -1px 35px 0px orange;}	
+//     10%{box-shadow: 3px -1px 35px 0px purple;}	
+//     20%{box-shadow: 3px -1px 35px 0px red;}
+//     30%{box-shadow: 3px -1px 35px 0px CadetBlue;}
+//     40%{box-shadow: 3px -1px 35px 0px yellow;}
+//     50%{box-shadow: 3px -1px 35px 0px coral;}
+//     60%{box-shadow: 3px -1px 35px 0px green;}
+//     70%{box-shadow: 3px -1px 35px 0px cyan;}
+//     80%{box-shadow: 3px -1px 35px 0px DeepPink;}
+//     90%{box-shadow: 3px -1px 35px 0px DodgerBlue;}
+//     100%{box-shadow: 3px -1px 35px 0px orange;}
+// }
+
+@keyframes link{
+    0%{color: orange;}	
+    10%{color: purple;}	
+    20%{color: red;}
+    30%{color: CadetBlue;}
+    40%{color: yellow;}
+    50%{color: coral;}
+    60%{color: green;}
+    70%{color: cyan;}
+    80%{color: DeepPink;}
+    90%{color: DodgerBlue;}
+    100%{color: orange;}
+}

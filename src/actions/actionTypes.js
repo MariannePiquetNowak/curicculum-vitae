@@ -8,3 +8,8 @@ export const POPUP = "POPUP"
 export const NOT_FOUND = "NOT FOUND";
 
 export const PAGE_ACTION = 'PAGE_ACTION';
+
+
+// Actions types de la Version 2 avec Matérial Ui
+
+export const VIEW_MATERIAL = 'VIEW_MATERIAL';

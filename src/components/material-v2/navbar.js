@@ -1,9 +1,16 @@
 import React from 'react';
+
 import { emphasize, withStyles } from '@material-ui/core/styles';
 import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Chip from '@material-ui/core/Chip';
-import HomeIcon from '@material-ui/icons/Home';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
+// Icon Material-Ui
+import CodeIcon from '@material-ui/icons/Code';
+import BuildIcon from '@material-ui/icons/Build';
+import CardTravelIcon from '@material-ui/icons/CardTravel';
+import ComputerIcon from '@material-ui/icons/Computer';
+import BrushIcon from '@material-ui/icons/Brush';
+import MoodIcon from '@material-ui/icons/Mood';
 
 const StyledBreadcrumb = withStyles((theme) => ({
   root: {
@@ -32,16 +39,44 @@ const Navbar = () => {
       <StyledBreadcrumb
         component="a"
         href="#"
-        label="Home"
-        icon={<HomeIcon fontSize="small" />}
+        label="Skills"
+        icon={<BuildIcon fontSize="small" />}
         onClick={handleClick}
       />
-      <StyledBreadcrumb component="a" href="#" label="Catalog" onClick={handleClick} />
       <StyledBreadcrumb
-        label="Accessories"
-        deleteIcon={<ExpandMoreIcon />}
+        component="a"
+        href="#"
+        label="Soft-Skills"
+        icon={<MoodIcon fontSize="small" />}
         onClick={handleClick}
-        onDelete={handleClick}
+      />
+      <StyledBreadcrumb
+        component="a"
+        href="#"
+        label="Education"
+        icon={<CodeIcon fontSize="small" />}
+        onClick={handleClick}
+      />
+      <StyledBreadcrumb
+        component="a"
+        href="#"
+        label="Experience"
+        icon={<CardTravelIcon fontSize="small" />}
+        onClick={handleClick}
+      />
+     <StyledBreadcrumb
+        component="a"
+        href="#"
+        label="Hobbies"
+        icon={<BrushIcon fontSize="small" />}
+        onClick={handleClick}
+      />
+      <StyledBreadcrumb
+        component="a"
+        href="#"
+        label="Environment"
+        icon={<ComputerIcon fontSize="small" />}
+        onClick={handleClick}
       />
     </Breadcrumbs>
   );

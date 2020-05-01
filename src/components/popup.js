@@ -2,19 +2,6 @@ import React from 'react';
 
 import '../assets/styles/popup.scss'
 
-import * as types from '../actions/actionTypes';
-
-
-/* 
-===== TODO ======
-Chercher une solution pour respecter l'UX : 
-
-Lorsque le user clique sur le bouton "fermer" de la popup, 
-elle se ferme. Mais on est obligé de recharger la page pour permettre
-à ce dernier de relancer la popup des contacts si il clique sur "oui"
-du formulaire
-*/
-
 const Popup = (props) => {
 
     return (
@@ -38,7 +25,7 @@ const Popup = (props) => {
                         </ul>
                     </div>
                 </div>
-                <button type='button' className="close-popup" onClick={() => props.addView(types.SKILLS)}>Fermer</button>
+                <button type='button' className="close-popup" onClick={() => props.addView()}>Fermer</button>
             </div>
         </div>
     )

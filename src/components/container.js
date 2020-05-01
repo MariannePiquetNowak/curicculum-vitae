@@ -42,7 +42,7 @@ class Container extends Component {
 		const view = this.props.view
 		switch (view) {
 			case types.POPUP:
-				return <Popup addView={() => { this.props.addView(types.SKILLS) }}/>
+				return <Popup addView={() => { this.props.addView()}}/>
 			default:
 				return null
 		}

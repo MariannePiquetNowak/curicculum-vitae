@@ -4,7 +4,7 @@ import {
     Route
 } from 'react-router-dom'
 
-const BoutonRedirect = ({ libelle, history }) => (
+const BoutonRedirect = ({ history }) => (
     <Button 
         variant="contained" 
         color="primary" 
@@ -18,7 +18,7 @@ const BoutonRedirect = ({ libelle, history }) => (
         path="/" 
         render={(props) => 
             <BoutonRedirect {...props} 
-            title="Changer de page"
+            title="Revenir à la version 1985"
             />}
     />
   );

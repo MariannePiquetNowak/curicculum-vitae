@@ -1,3 +1,20 @@
+## Curriculum Vitae Marianne Piquet-Nowak 
+
+Cette petite Single Page a été réalisé avec React.js et Redux.
+
+Le but étant de créer un projet pour pratiquer React / Redux et d'en acquérir les compétences. 
+
+## Améliorations personnelles à apporter 
+
+- Réparer les erreurs de responsive 
+- Réaliser le responsive mobile
+- Charger les images en amont dans le navigateur (pour éviter les temps de chargement image)
+
+## V2 
+Pouvoir l'associer à un wordpress afin de pas retourner dans le code pour y ajouter des MAJ. 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

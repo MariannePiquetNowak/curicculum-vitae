@@ -4,6 +4,8 @@ Cette petite Single Page a été réalisé avec React.js et Redux.
 
 Le but étant de créer un projet pour pratiquer React / Redux et d'en acquérir les compétences. 
 
+POUR DECOUVRIR LE PROJET : https://curriculumvitae-mariannepn.yj.fr/
+
 ## Améliorations personnelles à apporter 
 
 - Réparer les erreurs de responsive 
